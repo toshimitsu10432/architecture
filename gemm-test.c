@@ -6,10 +6,10 @@
 #include <x86intrin.h>
 
 
-#define BLOCKSIZE 30
+#define BLOCKSIZE 32
 #define UNROLL 4
 
-//#define FP_SINGLE     /* Data Size: float -> ON */
+#define FP_SINGLE     /* Data Size: float -> ON */
 
 #if defined(FP_SINGLE)
 #define REAL float		/* Data Size: float -> ON */
